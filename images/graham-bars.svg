@@ -1,0 +1,73 @@
+<svg width="700" height="700" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="gbTitle">
+  <title id="gbTitle">Illustration of stacked Graham Bars with layers of graham crust and cream filling</title>
+  <defs>
+    <linearGradient id="crustGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D9A85C"/>
+      <stop offset="100%" stop-color="#B87F38"/>
+    </linearGradient>
+    <linearGradient id="creamGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFBF3"/>
+      <stop offset="100%" stop-color="#F6E9CE"/>
+    </linearGradient>
+    <linearGradient id="bgGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F3E6CC"/>
+      <stop offset="100%" stop-color="#EAD6AC"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#6B4A22" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <circle cx="350" cy="350" r="300" fill="url(#bgGlow)" opacity="0.6"/>
+
+  <g filter="url(#softShadow)">
+    <!-- Bottom crust layer with torn crumb edge -->
+    <path d="M120 470
+      L130 452 L148 468 L166 450 L184 466 L202 449 L220 465 L238 448 L256 464
+      L274 447 L292 463 L310 446 L328 462 L346 445 L364 461 L382 444 L400 460
+      L418 443 L436 459 L454 442 L472 458 L490 441 L508 457 L526 440 L580 470
+      L580 520 L120 520 Z" fill="url(#crustGrad)"/>
+
+    <!-- Cream filling layer -->
+    <rect x="120" y="392" width="460" height="78" fill="url(#creamGrad)"/>
+    <path d="M120 392 Q175 378 230 392 T340 392 T450 392 T580 392 L580 470 L120 470 Z" fill="url(#creamGrad)"/>
+
+    <!-- Middle crust layer with torn crumb edge -->
+    <path d="M120 330
+      L130 312 L148 328 L166 310 L184 326 L202 309 L220 325 L238 308 L256 324
+      L274 307 L292 323 L310 306 L328 322 L346 305 L364 321 L382 304 L400 320
+      L418 303 L436 319 L454 302 L472 318 L490 301 L508 317 L526 300 L580 330
+      L580 392 L120 392 Z" fill="url(#crustGrad)"/>
+
+    <!-- Top cream layer -->
+    <path d="M120 260 Q175 246 230 260 T340 260 T450 260 T580 260 L580 330 L120 330 Z" fill="url(#creamGrad)"/>
+
+    <!-- Top crust layer with torn crumb edge -->
+    <path d="M120 200
+      L130 182 L148 198 L166 180 L184 196 L202 179 L220 195 L238 178 L256 194
+      L274 177 L292 193 L310 176 L328 192 L346 175 L364 191 L382 174 L400 190
+      L418 173 L436 189 L454 172 L472 188 L490 171 L508 187 L526 170 L580 200
+      L580 260 L120 260 Z" fill="url(#crustGrad)"/>
+  </g>
+
+  <!-- Crumb speckles for texture -->
+  <g fill="#8A5A28" opacity="0.35">
+    <circle cx="180" cy="230" r="3"/>
+    <circle cx="260" cy="215" r="2.4"/>
+    <circle cx="340" cy="235" r="3.2"/>
+    <circle cx="420" cy="210" r="2.2"/>
+    <circle cx="500" cy="228" r="3"/>
+    <circle cx="200" cy="360" r="2.6"/>
+    <circle cx="300" cy="345" r="3.1"/>
+    <circle cx="400" cy="365" r="2.4"/>
+    <circle cx="480" cy="350" r="2.9"/>
+  </g>
+
+  <!-- Decorative crumb dots floating -->
+  <g fill="#C68A3D" opacity="0.55">
+    <circle cx="560" cy="180" r="6"/>
+    <circle cx="590" cy="220" r="3.5"/>
+    <circle cx="130" cy="150" r="4.5"/>
+    <circle cx="105" cy="200" r="3"/>
+  </g>
+</svg>
